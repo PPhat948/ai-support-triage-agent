@@ -1,0 +1,20 @@
+{
+    "cust_01": {
+        "name": "Sarah Jenkins",
+        "plan": "free",
+        "region": "US",
+        "history_months": 4
+    },
+    "cust_02": {
+        "name": "TechFlow Enterprise Ltd.",
+        "plan": "enterprise",
+        "region": "Asia",
+        "history_months": 24
+    },
+    "cust_03": {
+        "name": "John Doe",
+        "plan": "pro",
+        "region": "EU",
+        "history_months": 12
+    }
+}

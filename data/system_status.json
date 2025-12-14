@@ -1,0 +1,21 @@
+{
+    "last_updated": "2025-12-14T13:45:00Z",
+    "global_status": "partial_outage",
+    "regions": {
+        "us-east": {
+            "status": "operational",
+            "latency_ms": 45,
+            "message": "All systems functioning normally."
+        },
+        "eu-west": {
+            "status": "operational",
+            "latency_ms": 60,
+            "message": "All systems functioning normally."
+        },
+        "asia-pacific": {
+            "status": "major_outage",
+            "latency_ms": 5000,
+            "message": "CRITICAL: High rate of 500 Internal Server Errors detected in Bangkok and Singapore nodes."
+        }
+    }
+}
