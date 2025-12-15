@@ -57,12 +57,6 @@ pip install -r requirements.txt
     OPENAI_API_KEY=your_openai_api_key_here
     ```
 
-2.  **Generate Mock Data (Optional):**
-    The app generates data automatically on first run. You can also run it manually:
-    ```bash
-    python -m scripts.setup_mock_data
-    ```
-
 ---
 
 ## Running the Application
