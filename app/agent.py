@@ -11,7 +11,7 @@ if "OPENAI_API_KEY" not in os.environ:
     raise ValueError("OPENAI_API_KEY environment variable is not set")
 
 def run_agent(message: str, customer_id: str):
-    llm = ChatOpenAI(model="gpt-4o", temperature=0)
+    llm = ChatOpenAI(model="gpt-5-mini", temperature=0)
     tools = [get_customer_profile, check_system_status, search_knowledge_base]
     
     # Capture current server time for accurate date comparisons (e.g. 7-day refund policy).
