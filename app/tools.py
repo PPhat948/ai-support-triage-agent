@@ -55,10 +55,12 @@ def check_system_status(region: str) -> str:
     region_lower = region.lower()
     
     target_key = "unknown"
-    if "asia" in region_lower or "thailand" in region_lower:
+    if "asia" in region_lower:
         target_key = "asia-pacific"
-    elif "us" in region_lower or "america" in region_lower:
+    elif "us" in region_lower:
         target_key = "us-east"
+    elif "eu" in region_lower:
+        target_key = "eu-west"
     else:
         # Fallback to checking the last known statuses
         pass
