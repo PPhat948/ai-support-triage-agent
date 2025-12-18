@@ -7,7 +7,7 @@ This project implements an AI-powered support ticket triage agent that analyzes 
 ## Project Structure
 
 ```text
-Ooca/
+ai-support-triage-agent/
 ├── app/
 │   ├── agent.py           # Configures the AI agent and defines its behavior
 │   ├── main.py            # Entry point for the FastAPI application
